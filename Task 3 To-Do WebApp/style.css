@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgba(187, 93, 250, 0.634),rgba(250, 59, 250, 0.623));
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    padding:50px;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 50px;
+}
+
+#inputField{
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(221, 243, 21);
+    margin-bottom: 40px;
+}
+
+#inputField:hover{
+    background-color: azure;
+}
+
+button{
+    height: 65px;
+    width: 70px;
+    border-radius: 20px;
+    background-color: #f9a2d6;
+    font-size: 25px;
+}
+
+ul{
+    background-color: rgb(230, 249, 92);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 530px;
+    min-height: 500px;
+}
+
+.task{
+    font-size: 30px;
+    margin-top: 20px;
+    box-shadow: #f9a2d6;
+}
+
+.task input[type=checkbox]{
+    float: right;
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.task .delete{
+    float: right;
+    padding: 5px;
+    margin-right: 20px;
+    cursor:pointer;
+    background-color: rgb(255, 0, 0);
+    padding: 0px;
+}
